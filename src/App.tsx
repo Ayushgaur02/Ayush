@@ -127,8 +127,8 @@ const Hero = () => {
         >
           <div className="aspect-[4/5] bg-white/5 overflow-hidden">
             <img 
-              src="https://images.unsplash.com/photo-1542744173-8e7e53415bb0?q=80&w=2070&auto=format&fit=crop" 
-              alt="Strategic Workplace" 
+              src="https://photos.fife.usercontent.google.com/pw/AP1GczPVhhmIAIiMHCLozMQUev44OI00ee469L0lHGu5NLh5W2na0tITKzTTTA=w686-h915-s-no-gm?authuser=0" 
+              alt="Ayush in a collaborative design workshop" 
               className="object-cover w-full h-full grayscale opacity-60 group-hover:grayscale-0 group-hover:opacity-100 transition-all duration-1000"
             />
           </div>
