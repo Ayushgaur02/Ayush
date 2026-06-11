@@ -218,7 +218,7 @@ const WorkSection = () => {
     },
     {
       id: "02",
-      title: "Daily UI Challenge",
+      title: "SkillBridge",
       category: "Visual Exploration",
       image: "https://images.unsplash.com/photo-1581291518633-83b4ebd1d83e?q=80&w=2070&auto=format&fit=crop",
       link: "https://www.figma.com/design/zlhv3xKAimlQtjAg7LY0U6/Daily-UI-Challenge?node-id=0-1&t=Dz7k0wGii5KXOntL-1"
