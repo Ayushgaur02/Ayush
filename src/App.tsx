@@ -272,12 +272,14 @@ const WorkSection = () => {
 
 const Expertise = () => {
   const skills = [
-    { name: "Information Architecture", icon: Layout },
-    { name: "Responsive Web Design", icon: Smartphone },
-    { name: "Team Problem Solving", icon: Users },
-    { name: "User Research", icon: Search },
-    { name: "Wireframing (Figma)", icon: Figma },
-    { name: "Interaction Design", icon: Zap },
+    { name: "User Research", icon: Search, detail: "Interviews, pain points, personas" },
+    { name: "Wireframing (Figma)", icon: Figma, detail: "Low-fidelity flows and screen layouts" },
+    { name: "Prototyping", icon: MousePointer2, detail: "Clickable flows and interaction testing" },
+    { name: "Information Architecture", icon: Layout, detail: "Navigation, content hierarchy, user flows" },
+    { name: "Mobile App Design", icon: Smartphone, detail: "Mobile-first screens and responsive layouts" },
+    { name: "Usability Testing", icon: Users, detail: "Feedback loops, fixes, and iteration" },
+    { name: "Interaction Design", icon: Zap, detail: "States, transitions, and user journeys" },
+    { name: "Visual UI Design", icon: Figma, detail: "Typography, spacing, components, polish" },
   ];
 
   return (
@@ -309,7 +311,7 @@ const Expertise = () => {
                 <skill.icon className="w-5 h-5 text-white/20 group-hover:text-white transition-colors" />
                 <div>
                   <h4 className="text-white text-xs uppercase tracking-widest mb-2">{skill.name}</h4>
-                  <p className="text-[10px] text-white/40 leading-relaxed uppercase tracking-wider">High Fidelity / Strategic</p>
+                  <p className="text-[10px] text-white/40 leading-relaxed uppercase tracking-wider">{skill.detail}</p>
                 </div>
               </motion.div>
             ))}
@@ -354,7 +356,7 @@ const Contact = () => {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ delay: 0.4 }}
-            href="https://www.linkedin.com/in/ayushgaur02" 
+            href="https://www.linkedin.com/in/ayushgaur02/" 
             target="_blank"
             rel="noopener noreferrer"
             className="group flex flex-col items-center gap-4 border-b border-white/10 pb-4"
