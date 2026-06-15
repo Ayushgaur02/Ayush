@@ -88,7 +88,7 @@ const Hero = () => {
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.4, duration: 0.8 }}
               className="text-5xl sm:text-6xl md:text-8xl font-light leading-[1.05] text-white italic font-serif"
-           UI/UX Designer: Designing Clear & Usable Digital Experiences
+           <UI/UX Designer: Designing Clear & Usable Digital Experiences>
             </motion.h1>
           </div>
           <motion.p 
