@@ -81,17 +81,14 @@ const Hero = () => {
               transition={{ delay: 0.2 }}
               className="text-[10px] uppercase tracking-[0.4em] text-white/40 font-semibold block"
             >
-              UI/UX Designer | Product Design Intern
+              UI/UX Designer
             </motion.span>
             <motion.h1 
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.4, duration: 0.8 }}
               className="text-5xl sm:text-6xl md:text-8xl font-light leading-[1.05] text-white italic font-serif"
-            >
-              Designing Clear <br />
-              Learning App <br />
-              Experiences.
+           UI/UX Designer: Designing Clear & Usable Digital Experiences
             </motion.h1>
           </div>
           <motion.p 
