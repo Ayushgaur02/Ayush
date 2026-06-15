@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: Apache-2.0
  */
 
-import { motion } from "motion/react"; // Note: Change to "framer-motion" if using v11 or older
+import { motion } from "framer-motion";
 import { 
   Mail, 
   ExternalLink, 
@@ -119,6 +119,7 @@ const Hero = () => {
           className="relative group overflow-hidden"
         >
           <div className="aspect-[4/5] bg-white/5 overflow-hidden">
+            {/* The image points to the file saved in your public folder */}
             <img 
               src="/IMG-20251205-WA0000.jpg" 
               alt="Portrait of Ayush Gaur" 
