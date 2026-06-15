@@ -81,17 +81,17 @@ const Hero = () => {
               transition={{ delay: 0.2 }}
               className="text-[10px] uppercase tracking-[0.4em] text-white/40 font-semibold block"
             >
-              UI/UX Designer & Strategist
+              UI/UX Designer | Product Design Intern
             </motion.span>
             <motion.h1 
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.4, duration: 0.8 }}
-              className="text-6xl md:text-8xl font-light leading-[1.05] text-white italic font-serif"
+              className="text-5xl sm:text-6xl md:text-8xl font-light leading-[1.05] text-white italic font-serif"
             >
-              Turning Ideas <br />
-              Into Seamless <br />
-              Digital Realities.
+              Designing Clear <br />
+              Learning App <br />
+              Experiences.
             </motion.h1>
           </div>
           <motion.p 
@@ -100,21 +100,20 @@ const Hero = () => {
             transition={{ delay: 0.6, duration: 0.8 }}
             className="text-sm text-white/50 max-w-sm leading-relaxed mb-12"
           >
-            Focused on creating user-centered digital experiences that are simple, 
-            intuitive, and effective. Crafting narratives through visual intelligence 
-            and data-driven design.
+            I create user flows, wireframes, and Figma prototypes for mobile-first products, 
+            with a focus on simple navigation, usable screens, and learner-friendly interactions.
           </motion.p>
           <motion.div 
             initial={{ opacity: 0, y: 10 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.8 }}
-            className="flex gap-6"
+            className="flex flex-col sm:flex-row gap-4 sm:gap-6"
           >
-            <a href="#work" className="px-10 py-4 bg-white text-black text-[10px] uppercase tracking-[0.2em] font-bold hover:bg-white/90 transition-all">
-              Start Exploring
+            <a href="#work" className="w-full sm:w-auto text-center px-8 py-4 bg-white text-black text-[10px] uppercase tracking-[0.2em] font-bold hover:bg-white/90 transition-all">
+              View Work
             </a>
-            <a href="#contact" className="px-10 py-4 border border-white/20 text-white text-[10px] uppercase tracking-[0.2em] font-bold hover:bg-white/5 transition-all">
-              Get In Touch
+            <a href="#contact" className="w-full sm:w-auto text-center px-8 py-4 border border-white/20 text-white text-[10px] uppercase tracking-[0.2em] font-bold hover:bg-white/5 transition-all">
+              Contact Me
             </a>
           </motion.div>
         </motion.div>
@@ -162,8 +161,8 @@ const About = () => {
           </h2>
           <div className="space-y-10">
             <p className="text-3xl md:text-4xl font-light text-white leading-tight font-serif italic text-balance">
-              "My process is driven by understanding user behavior and 
-              translating insights into meaningful design solutions."
+              "My process starts with understanding the user, mapping the flow, 
+              and simplifying each decision into a clearer interface."
             </p>
             <div className="h-px w-full bg-white/10" />
             <div className="grid grid-cols-1 gap-12">
@@ -183,14 +182,14 @@ const About = () => {
           className="space-y-8 text-white/60 leading-relaxed text-sm"
         >
           <p>
-            UI/UX Designer focused on creating user-centered digital experiences 
-            that are simple, intuitive, and effective. I enjoy solving real user 
-            problems through research, wireframing, and prototyping.
+            I am Ayush Gaur, a UI/UX designer focused on practical product design 
+            for mobile and web experiences. I enjoy turning rough ideas into clear 
+            user flows, wireframes, and usable interfaces.
           </p>
           <p>
-            Currently upskilling in UI/UX design and working on projects that 
-            strengthen my skills in User Research, Wireframing (Figma), and 
-            Interaction Design.
+            My mathematics background helps me break complex problems into simple 
+            steps. I am building stronger skills in user research, Figma prototyping, 
+            information architecture, and learning-friendly digital experiences.
           </p>
           <div className="pt-8">
             <h4 className="text-white text-xs uppercase tracking-widest mb-6 border-b border-white/10 pb-4">Background</h4>
@@ -272,14 +271,24 @@ const WorkSection = () => {
 
 const Expertise = () => {
   const skills = [
-    { name: "User Research", icon: Search, detail: "Interviews, pain points, personas" },
-    { name: "Wireframing (Figma)", icon: Figma, detail: "Low-fidelity flows and screen layouts" },
-    { name: "Prototyping", icon: MousePointer2, detail: "Clickable flows and interaction testing" },
-    { name: "Information Architecture", icon: Layout, detail: "Navigation, content hierarchy, user flows" },
-    { name: "Mobile App Design", icon: Smartphone, detail: "Mobile-first screens and responsive layouts" },
-    { name: "Usability Testing", icon: Users, detail: "Feedback loops, fixes, and iteration" },
-    { name: "Interaction Design", icon: Zap, detail: "States, transitions, and user journeys" },
-    { name: "Visual UI Design", icon: Figma, detail: "Typography, spacing, components, polish" },
+    { name: "User Experience Design (UED)", icon: Users, detail: "Research-driven flows and user journeys" },
+    { name: "User Interface Design", icon: Figma, detail: "Clean layouts, hierarchy, and polish" },
+    { name: "Product Design", icon: Layout, detail: "Problem framing and product thinking" },
+    { name: "Artificial Intelligence (AI)", icon: Zap, detail: "AI-aware product and workflow thinking" },
+    { name: "Artificial Intelligence for Design", icon: Zap, detail: "Using AI to explore and improve ideas" },
+    { name: "Information Architecture", icon: Layout, detail: "Navigation, content hierarchy, structure" },
+    { name: "Responsive Web Design", icon: Smartphone, detail: "Adaptive layouts across screen sizes" },
+    { name: "Mobile Application Design", icon: Smartphone, detail: "Mobile-first screens and app flows" },
+    { name: "User Flows", icon: MousePointer2, detail: "Step-by-step journeys and task paths" },
+    { name: "Wireframing", icon: Figma, detail: "Low-fidelity screens and layout exploration" },
+    { name: "Figma (Software)", icon: Figma, detail: "Design files, components, and prototypes" },
+    { name: "User Research", icon: Search, detail: "Pain points, needs, and user insights" },
+    { name: "Usability Design", icon: Users, detail: "Clear actions and reduced user friction" },
+    { name: "Color Theory", icon: Figma, detail: "Contrast, mood, and accessible palettes" },
+    { name: "Problem Solving", icon: Search, detail: "Turning complex needs into simple steps" },
+    { name: "Team Problem Solving", icon: Users, detail: "Collaborative thinking and feedback loops" },
+    { name: "Sketching", icon: MousePointer2, detail: "Early concepts and quick visual exploration" },
+    { name: "Soft Skills", icon: Users, detail: "Communication, ownership, and collaboration" },
   ];
 
   return (
@@ -373,18 +382,18 @@ const Contact = () => {
 const Footer = () => {
   return (
     <footer className="py-12 border-t border-white/10 bg-[#050505]">
-      <div className="max-w-7xl mx-auto px-12 flex justify-between items-center text-[9px] uppercase tracking-[0.3em] text-white/20 font-medium">
+      <div className="max-w-7xl mx-auto px-12 flex flex-col md:flex-row gap-8 md:gap-0 justify-between items-center text-[9px] uppercase tracking-[0.3em] text-white/20 font-medium">
         <span>© 2026 AYUSH GAUR STUDIO</span>
         <div className="flex gap-12">
+          <a href="mailto:ayush2225gaur@gmail.com" className="hover:text-white transition-colors">Email</a>
           <a 
-            href="https://example.com/ayush-gaur-resume.pdf" 
+            href="https://www.linkedin.com/in/ayushgaur02/" 
             target="_blank" 
             rel="noopener noreferrer" 
             className="hover:text-white transition-colors"
           >
-            Resume
+            LinkedIn
           </a>
-          <a href="#" className="hover:text-white transition-colors">Layers</a>
         </div>
       </div>
     </footer>
