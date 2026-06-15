@@ -120,7 +120,7 @@ const Hero = () => {
         >
           <div className="aspect-[4/5] bg-white/5 overflow-hidden">
             <img 
-              src="https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?q=80&w=1287&auto=format&fit=crop" 
+              src="/IMG-20251205-WA0000.jpg" 
               alt="Portrait of Ayush Gaur" 
               className="object-cover w-full h-full grayscale opacity-60 group-hover:grayscale-0 group-hover:opacity-100 transition-all duration-1000"
             />
