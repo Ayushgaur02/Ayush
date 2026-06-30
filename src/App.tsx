@@ -206,15 +206,19 @@ const WorkSection = () => {
       id: "01",
       title: "LaundryHub",
       category: "Mobile Design / UX",
-      image: "https://images.unsplash.com/photo-1517677208171-0bc6725a3e60?q=80&w=2070&auto=format&fit=crop",
-      link: "https://www.figma.com/design/C015xPTJtIW6CuLlpGR3QT/LaundryHub?node-id=6-59&t=eW317xe9GewPuOeh-1"
+      image: "/Cover%20page%20(1).png",
+      link: "/Case%20Study.pdf",
+      cta: "Read Case Study",
+      alt: "LaundryHub mobile app case study cover"
     },
     {
       id: "02",
       title: "SkillBridge",
       category: "Visual Exploration",
       image: "https://images.unsplash.com/photo-1581291518633-83b4ebd1d83e?q=80&w=2070&auto=format&fit=crop",
-      link: "https://www.figma.com/design/zlhv3xKAimlQtjAg7LY0U6/Daily-UI-Challenge?node-id=0-1&t=Dz7k0wGii5KXOntL-1"
+      link: "https://www.figma.com/design/zlhv3xKAimlQtjAg7LY0U6/Daily-UI-Challenge?node-id=0-1&t=Dz7k0wGii5KXOntL-1",
+      cta: "View in Figma",
+      alt: "SkillBridge design project preview"
     }
   ];
 
@@ -239,7 +243,7 @@ const WorkSection = () => {
             <div className="flex-1 mb-12 overflow-hidden aspect-[4/3] md:aspect-auto">
               <img 
                 src={project.image} 
-                alt={project.title} 
+                alt={project.alt} 
                 className="w-full h-full object-cover grayscale opacity-40 group-hover:scale-105 group-hover:opacity-80 transition-all duration-700"
               />
             </div>
@@ -253,7 +257,7 @@ const WorkSection = () => {
                 <ExternalLink className="w-4 h-4 text-white/20 group-hover:text-white transition-colors" />
               </div>
               <div className="text-[8px] uppercase tracking-[0.2em] text-white py-2 px-4 border border-white/20 inline-block group-hover:bg-white group-hover:text-black transition-colors">
-                View in Figma
+                {project.cta}
               </div>
             </div>
           </motion.a>
