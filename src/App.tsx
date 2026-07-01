@@ -85,7 +85,7 @@ const Hero = () => {
               transition={{ delay: 0.4, duration: 0.8 }}
               className="text-5xl sm:text-6xl md:text-8xl font-light leading-[1.05] text-white italic font-serif"
             >
-              UI/UX Designer building simple mobile and learning experiences.
+              Designing intuitive solutions for complex user problems.
             </motion.h1>
           </div>
           <motion.p 
@@ -94,8 +94,7 @@ const Hero = () => {
             transition={{ delay: 0.6, duration: 0.8 }}
             className="text-sm text-white/50 max-w-sm leading-relaxed mb-12"
           >
-            I design user flows, wireframes, and Figma prototypes for mobile-first products, 
-            with a focus on clarity, usability, and problem solving.
+           A Product Designer focused on clean interfaces, logical flows, and turning complex ideas into simple digital experiences.
           </motion.p>
           <motion.div 
             initial={{ opacity: 0, y: 10 }}
