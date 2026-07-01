@@ -178,7 +178,7 @@ const About = () => {
             I am Ayush Gaur, a Designer focused on practical product design for mobile and web.
           </p>
           <p>
-            My background in Mathematics helps me break complex problems into simple steps, while my training from Tutedude provided the technical foundation for user research, wireframing, and Figma prototyping.
+            My background in Mathematics helps me break complex problems into simple steps, while my training from Tutedude provided the technical foundation for user experience, wireframing, and Figma prototyping.
           </p>
           <div className="pt-8">
             <h4 className="text-white text-xs uppercase tracking-widest mb-6 border-b border-white/10 pb-4">Background</h4>
