@@ -154,16 +154,33 @@ const About = () => {
           </h2>
           <div className="space-y-10">
             <p className="text-3xl md:text-4xl font-light text-white leading-tight font-serif italic text-balance">
-              "My process starts with understanding the user, mapping the flow, 
+              "My process starts with understanding the user, mapping the flow,
               and simplifying each decision into a clearer interface."
             </p>
             <div className="h-px w-full bg-white/10" />
-            <div className="grid grid-cols-1 gap-12">
-              <div>
-                <p className="text-2xl font-light text-white mb-2 font-mono">2023 — 2027</p>
-                <p className="text-[9px] uppercase tracking-widest text-white/40">B.Sc Mathematics · Graduation</p>
+            <section aria-labelledby="education-heading" className="space-y-8">
+              <h3 id="education-heading" className="text-[10px] uppercase tracking-[0.35em] text-white font-semibold">
+                Education
+              </h3>
+              <div className="space-y-7">
+                <article className="space-y-2">
+                  <time className="block text-2xl font-light text-white font-mono" dateTime="2026">
+                    2026
+                  </time>
+                  <p className="text-[11px] uppercase tracking-[0.18em] text-white/65 font-semibold">
+                    UI/UX Design Certification &middot; Tutedude
+                  </p>
+                </article>
+                <article className="space-y-2">
+                  <time className="block text-2xl font-light text-white font-mono" dateTime="2023/2027">
+                    2023 — 2027
+                  </time>
+                  <p className="text-[11px] uppercase tracking-[0.18em] text-white/65 font-semibold">
+                    B.Sc Mathematics &middot; Graduation
+                  </p>
+                </article>
               </div>
-            </div>
+            </section>
           </div>
         </motion.div>
         
@@ -264,24 +281,14 @@ const WorkSection = () => {
 
 const Expertise = () => {
   const skills = [
-    { name: "User Experience Design (UED)", icon: Users, detail: "Research-driven flows and user journeys" },
-    { name: "User Interface Design", icon: Figma, detail: "Clean layouts, hierarchy, and polish" },
-    { name: "Product Design", icon: Layout, detail: "Problem framing and product thinking" },
-    { name: "Artificial Intelligence (AI)", icon: Zap, detail: "AI-aware product and workflow thinking" },
-    { name: "Artificial Intelligence for Design", icon: Zap, detail: "Using AI to explore and improve ideas" },
-    { name: "Information Architecture", icon: Layout, detail: "Navigation, content hierarchy, structure" },
-    { name: "Responsive Web Design", icon: Smartphone, detail: "Adaptive layouts across screen sizes" },
-    { name: "Mobile Application Design", icon: Smartphone, detail: "Mobile-first screens and app flows" },
-    { name: "User Flows", icon: MousePointer2, detail: "Step-by-step journeys and task paths" },
-    { name: "Wireframing", icon: Figma, detail: "Low-fidelity screens and layout exploration" },
-    { name: "Figma (Software)", icon: Figma, detail: "Design files, components, and prototypes" },
-    { name: "User Research", icon: Search, detail: "Pain points, needs, and user insights" },
-    { name: "Usability Design", icon: Users, detail: "Clear actions and reduced user friction" },
-    { name: "Color Theory", icon: Figma, detail: "Contrast, mood, and accessible palettes" },
-    { name: "Problem Solving", icon: Search, detail: "Turning complex needs into simple steps" },
-    { name: "Team Problem Solving", icon: Users, detail: "Collaborative thinking and feedback loops" },
-    { name: "Sketching", icon: MousePointer2, detail: "Early concepts and quick visual exploration" },
-    { name: "Soft Skills", icon: Users, detail: "Communication, ownership, and collaboration" },
+    { name: "User Research", icon: Search, detail: "Understanding user needs, pain points, and behavior" },
+    { name: "Information Architecture", icon: Layout, detail: "Organizing screens, content, and navigation clearly" },
+    { name: "User Flows", icon: MousePointer2, detail: "Mapping task paths from entry point to outcome" },
+    { name: "Wireframing", icon: Layout, detail: "Structuring low-fidelity screens before visual polish" },
+    { name: "Interactive Prototyping", icon: Figma, detail: "Creating clickable flows for product ideas" },
+    { name: "User Interface Design", icon: Figma, detail: "Designing clean screens with strong visual hierarchy" },
+    { name: "Responsive & Mobile Design", icon: Smartphone, detail: "Adapting layouts for web and mobile experiences" },
+    { name: "Figma", icon: Figma, detail: "Working with components, layouts, and design files" },
   ];
 
   return (
