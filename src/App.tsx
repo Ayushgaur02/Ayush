@@ -94,7 +94,7 @@ const Hero = () => {
             transition={{ delay: 0.6, duration: 0.8 }}
             className="text-sm text-white/50 max-w-sm leading-relaxed mb-12"
           >
-           A Product Designer focused on clean interfaces, logical flows, and turning complex ideas into simple digital experiences.
+           A Designer focused on clean interfaces, logical flows, and turning complex ideas into simple digital experiences.
           </motion.p>
           <motion.div 
             initial={{ opacity: 0, y: 10 }}
